@@ -1,0 +1,25 @@
+{
+  "extends": "@react-native/typescript-config",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@screens/*": ["src/screens/*"],
+
+      "@theme/*": ["src/theme.ts"],
+      "@components/*": ["src/components/*"], 
+      "@constants/*" :["src/constants/*"]
+
+    }
+  },
+  "include": [
+    "src",                   
+    "src/@types/**/*.d.ts"      
+  ],
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ]
+
+}

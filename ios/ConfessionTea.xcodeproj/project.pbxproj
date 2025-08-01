@@ -1,0 +1,924 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05A9D31AD2874C728EDDDD9F /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0BCC5784E6A3473D9E20558E /* OpenSans-Regular.ttf */; };
+		1224482EBC934D8CBF74E320 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1B29B44EB0044D4A8DEDF2B /* OpenSans-SemiBoldItalic.ttf */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		141BC2ACFEE64B3BB344427C /* OpenSans_Condensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E89DB3C2DBB4B059A691C28 /* OpenSans_Condensed-Bold.ttf */; };
+		23BA3782D22F4DB888DB746B /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA7002B791084C76A22CAA47 /* OpenSans-Bold.ttf */; };
+		24879691531F4CAD91910074 /* OpenSans_SemiCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE2DAD6629E34F64897F17D7 /* OpenSans_SemiCondensed-Bold.ttf */; };
+		2C2F79F1B861DAFED0EF29CA /* libPods-ConfessionTeaBase-ConfessionTeaDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C80BCFBA1D2D7D5B23723BE /* libPods-ConfessionTeaBase-ConfessionTeaDev.a */; };
+		2D6A686DE101C0C8E6E19F22 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		329F235D07834714967DF877 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A00A14B52564E768158DF21 /* OpenSans-Italic.ttf */; };
+		338CD0DF5C7A46D7BB10B037 /* OpenSans_SemiCondensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DB3B97520FD43419E5F36EF /* OpenSans_SemiCondensed-SemiBold.ttf */; };
+		39C6B2360C5047038BA591C5 /* OpenSans_SemiCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63467A54DCB94267912C24AE /* OpenSans_SemiCondensed-Regular.ttf */; };
+		3A7724D36BF0437C9279E18C /* OpenSans_Condensed-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2827715B525445EB94F40B7A /* OpenSans_Condensed-SemiBoldItalic.ttf */; };
+		3CFD2DE936524B728F7F2ED1 /* OpenSans_SemiCondensed-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAB59A1541814430947A13FC /* OpenSans_SemiCondensed-ExtraBoldItalic.ttf */; };
+		3D7FA893C0884058A56A4AA0 /* OpenSans_Condensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB9FAEB910274A6E9C209DBB /* OpenSans_Condensed-Medium.ttf */; };
+		3DDBFD5B2A49458F8C52D77C /* OpenSans_SemiCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59A237200FC7431C88D540F1 /* OpenSans_SemiCondensed-Light.ttf */; };
+		41BEA9CFBC494A1381588526 /* OpenSans_Condensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D62266DBC5F1424EBA83915D /* OpenSans_Condensed-LightItalic.ttf */; };
+		464D9EAFBC4E46A0B7646052 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCE040BDCB054062BAF0BBDB /* OpenSans-SemiBold.ttf */; };
+		4760F53BBD9F4F11B35E35B2 /* OpenSans_Condensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5985F7B2EEFD49DE8E4B7357 /* OpenSans_Condensed-BoldItalic.ttf */; };
+		483C3097F2904BD9931267FC /* OpenSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E27CFDC98CE4E41A04EB69B /* OpenSans-MediumItalic.ttf */; };
+		52F6D5C27EBB4F50B08BD354 /* OpenSans_Condensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B24CF27B28A3410798390238 /* OpenSans_Condensed-Regular.ttf */; };
+		55A260A945BE43559CFAD2EC /* OpenSans_SemiCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD4283191C524C14B03F9B85 /* OpenSans_SemiCondensed-Medium.ttf */; };
+		5A2BFCD32A7F4A1F9F26168A /* OpenSans_Condensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C23B60B8D8DC448181EEB93C /* OpenSans_Condensed-Italic.ttf */; };
+		701DC90C5F574AB9A3C4122E /* OpenSans_SemiCondensed-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5DF3544173D48CEBB31E206 /* OpenSans_SemiCondensed-SemiBoldItalic.ttf */; };
+		7088A1628C3E444F9D9E3FEC /* OpenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EAA9B14C1F340FEBAAADB1B /* OpenSans-Medium.ttf */; };
+		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		7B3E09B809B24C7EBBA0ADAC /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 452EE7B29CB8422AA071F2E3 /* OpenSans-LightItalic.ttf */; };
+		889175B00EA64270A97118BC /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B2D167CA3354017BA915394 /* OpenSans-BoldItalic.ttf */; };
+		8FBF367B45174A19B1AE86A1 /* OpenSans_Condensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EF0E01A18EF45CB924DD360 /* OpenSans_Condensed-ExtraBold.ttf */; };
+		905A04003279462BA0821F28 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64E504F1E4B74ABA8508DF30 /* OpenSans-ExtraBoldItalic.ttf */; };
+		A42C92A3B01843F2B9B9342F /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03C5DC6563DE43BA85A927F1 /* OpenSans-Light.ttf */; };
+		AAE282EE577843D48184BE82 /* OpenSans_SemiCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE5372AB14047BF8E15AAE6 /* OpenSans_SemiCondensed-BoldItalic.ttf */; };
+		AE06135D5F334B6295654C6B /* OpenSans_SemiCondensed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF50E2C322C74A618ABF9966 /* OpenSans_SemiCondensed-MediumItalic.ttf */; };
+		B001F8DA9E714C1882D38A9F /* OpenSans_Condensed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00AAD03E58FC4CE39A17195D /* OpenSans_Condensed-MediumItalic.ttf */; };
+		B6B50328EAFA4EC58F27803B /* OpenSans_Condensed-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 744F578BBC3C44809F5EA241 /* OpenSans_Condensed-ExtraBoldItalic.ttf */; };
+		C1B6333B5BC2C21E741F6E7B /* libPods-ConfessionTeaBase-ConfessionTea.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7194E7A51E14928D9EC14D95 /* libPods-ConfessionTeaBase-ConfessionTea.a */; };
+		CA938FAF82994B46891F31AA /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51DD3EA6A21B448ABA99FC14 /* BootSplash.storyboard */; };
+		CBF8DE4DA67D4E248ED5EE94 /* OpenSans_SemiCondensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 795293DBAB7E4B23999C55F9 /* OpenSans_SemiCondensed-ExtraBold.ttf */; };
+		D205030314C94B90A8C1669F /* OpenSans_SemiCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7573080D2A1D4BD487A96BB0 /* OpenSans_SemiCondensed-LightItalic.ttf */; };
+		DA3C58BDFB374B7BABDD0E16 /* OpenSans_Condensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA1E1F87030F40C2A3827794 /* OpenSans_Condensed-Light.ttf */; };
+		DFE6383C6E7E44968239BE59 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3227E45B524466182A5F49C /* Colors.xcassets */; };
+		E6C1AB50507F4E328B90DAB6 /* OpenSans_Condensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6616ABC9E1F44AE288D02B92 /* OpenSans_Condensed-SemiBold.ttf */; };
+		F3D20C0C0BEE447FBAA03E0B /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC93C01098B14F6B95A35F9C /* OpenSans-ExtraBold.ttf */; };
+		F502935F6B054F7995EA4817 /* OpenSans_SemiCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E2D4C5F790F435EBF93E909 /* OpenSans_SemiCondensed-Italic.ttf */; };
+		FA745DDE2E39F9BF00CA71FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
+		FA745DE32E39F9BF00CA71FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		FA745DE42E39F9BF00CA71FA /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		FAEC573C2E3CADA9003DEE32 /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51DD3EA6A21B448ABA99FC14 /* BootSplash.storyboard */; };
+		FAEC573D2E3CB062003DEE32 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FA7002B791084C76A22CAA47 /* OpenSans-Bold.ttf */; };
+		FAEC573E2E3CB062003DEE32 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7B2D167CA3354017BA915394 /* OpenSans-BoldItalic.ttf */; };
+		FAEC573F2E3CB062003DEE32 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AC93C01098B14F6B95A35F9C /* OpenSans-ExtraBold.ttf */; };
+		FAEC57402E3CB062003DEE32 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 64E504F1E4B74ABA8508DF30 /* OpenSans-ExtraBoldItalic.ttf */; };
+		FAEC57412E3CB062003DEE32 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A00A14B52564E768158DF21 /* OpenSans-Italic.ttf */; };
+		FAEC57422E3CB062003DEE32 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03C5DC6563DE43BA85A927F1 /* OpenSans-Light.ttf */; };
+		FAEC57432E3CB062003DEE32 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 452EE7B29CB8422AA071F2E3 /* OpenSans-LightItalic.ttf */; };
+		FAEC57442E3CB062003DEE32 /* OpenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1EAA9B14C1F340FEBAAADB1B /* OpenSans-Medium.ttf */; };
+		FAEC57452E3CB062003DEE32 /* OpenSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E27CFDC98CE4E41A04EB69B /* OpenSans-MediumItalic.ttf */; };
+		FAEC57462E3CB062003DEE32 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0BCC5784E6A3473D9E20558E /* OpenSans-Regular.ttf */; };
+		FAEC57472E3CB062003DEE32 /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCE040BDCB054062BAF0BBDB /* OpenSans-SemiBold.ttf */; };
+		FAEC57482E3CB062003DEE32 /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1B29B44EB0044D4A8DEDF2B /* OpenSans-SemiBoldItalic.ttf */; };
+		FAEC57492E3CB062003DEE32 /* OpenSans_Condensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E89DB3C2DBB4B059A691C28 /* OpenSans_Condensed-Bold.ttf */; };
+		FAEC574A2E3CB062003DEE32 /* OpenSans_Condensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5985F7B2EEFD49DE8E4B7357 /* OpenSans_Condensed-BoldItalic.ttf */; };
+		FAEC574B2E3CB062003DEE32 /* OpenSans_Condensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8EF0E01A18EF45CB924DD360 /* OpenSans_Condensed-ExtraBold.ttf */; };
+		FAEC574C2E3CB062003DEE32 /* OpenSans_Condensed-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 744F578BBC3C44809F5EA241 /* OpenSans_Condensed-ExtraBoldItalic.ttf */; };
+		FAEC574D2E3CB062003DEE32 /* OpenSans_Condensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C23B60B8D8DC448181EEB93C /* OpenSans_Condensed-Italic.ttf */; };
+		FAEC574E2E3CB062003DEE32 /* OpenSans_Condensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CA1E1F87030F40C2A3827794 /* OpenSans_Condensed-Light.ttf */; };
+		FAEC574F2E3CB062003DEE32 /* OpenSans_Condensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D62266DBC5F1424EBA83915D /* OpenSans_Condensed-LightItalic.ttf */; };
+		FAEC57502E3CB062003DEE32 /* OpenSans_Condensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB9FAEB910274A6E9C209DBB /* OpenSans_Condensed-Medium.ttf */; };
+		FAEC57512E3CB062003DEE32 /* OpenSans_Condensed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 00AAD03E58FC4CE39A17195D /* OpenSans_Condensed-MediumItalic.ttf */; };
+		FAEC57522E3CB062003DEE32 /* OpenSans_Condensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B24CF27B28A3410798390238 /* OpenSans_Condensed-Regular.ttf */; };
+		FAEC57532E3CB062003DEE32 /* OpenSans_Condensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6616ABC9E1F44AE288D02B92 /* OpenSans_Condensed-SemiBold.ttf */; };
+		FAEC57542E3CB062003DEE32 /* OpenSans_Condensed-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2827715B525445EB94F40B7A /* OpenSans_Condensed-SemiBoldItalic.ttf */; };
+		FAEC57552E3CB062003DEE32 /* OpenSans_SemiCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE2DAD6629E34F64897F17D7 /* OpenSans_SemiCondensed-Bold.ttf */; };
+		FAEC57562E3CB062003DEE32 /* OpenSans_SemiCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFE5372AB14047BF8E15AAE6 /* OpenSans_SemiCondensed-BoldItalic.ttf */; };
+		FAEC57572E3CB062003DEE32 /* OpenSans_SemiCondensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 795293DBAB7E4B23999C55F9 /* OpenSans_SemiCondensed-ExtraBold.ttf */; };
+		FAEC57582E3CB062003DEE32 /* OpenSans_SemiCondensed-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAB59A1541814430947A13FC /* OpenSans_SemiCondensed-ExtraBoldItalic.ttf */; };
+		FAEC57592E3CB062003DEE32 /* OpenSans_SemiCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7E2D4C5F790F435EBF93E909 /* OpenSans_SemiCondensed-Italic.ttf */; };
+		FAEC575A2E3CB062003DEE32 /* OpenSans_SemiCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59A237200FC7431C88D540F1 /* OpenSans_SemiCondensed-Light.ttf */; };
+		FAEC575B2E3CB062003DEE32 /* OpenSans_SemiCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7573080D2A1D4BD487A96BB0 /* OpenSans_SemiCondensed-LightItalic.ttf */; };
+		FAEC575C2E3CB062003DEE32 /* OpenSans_SemiCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD4283191C524C14B03F9B85 /* OpenSans_SemiCondensed-Medium.ttf */; };
+		FAEC575D2E3CB062003DEE32 /* OpenSans_SemiCondensed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF50E2C322C74A618ABF9966 /* OpenSans_SemiCondensed-MediumItalic.ttf */; };
+		FAEC575E2E3CB062003DEE32 /* OpenSans_SemiCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 63467A54DCB94267912C24AE /* OpenSans_SemiCondensed-Regular.ttf */; };
+		FAEC575F2E3CB062003DEE32 /* OpenSans_SemiCondensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4DB3B97520FD43419E5F36EF /* OpenSans_SemiCondensed-SemiBold.ttf */; };
+		FAEC57602E3CB062003DEE32 /* OpenSans_SemiCondensed-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5DF3544173D48CEBB31E206 /* OpenSans_SemiCondensed-SemiBoldItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00AAD03E58FC4CE39A17195D /* OpenSans_Condensed-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans_Condensed-MediumItalic.ttf"; path = "../assets/fonts/OpenSans_Condensed-MediumItalic.ttf"; sourceTree = "<group>"; };
+		018E16E34EDDCEA82CC6BFD1 /* Pods-ConfessionTeaBase-ConfessionTeaDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfessionTeaBase-ConfessionTeaDev.debug.xcconfig"; path = "Target Support Files/Pods-ConfessionTeaBase-ConfessionTeaDev/Pods-ConfessionTeaBase-ConfessionTeaDev.debug.xcconfig"; sourceTree = "<group>"; };
+		03C5DC6563DE43BA85A927F1 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Light.ttf"; path = "../assets/fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		0BCC5784E6A3473D9E20558E /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		0E89DB3C2DBB4B059A691C28 /* OpenSans_Condensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans_Condensed-Bold.ttf"; path = "../assets/fonts/OpenSans_Condensed-Bold.ttf"; sourceTree = "<group>"; };
+		10BA13AEABEBAADE45C169BB /* Pods-ConfessionTeaBase-ConfessionTeaDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfessionTeaBase-ConfessionTeaDev.release.xcconfig"; path = "Target Support Files/Pods-ConfessionTeaBase-ConfessionTeaDev/Pods-ConfessionTeaBase-ConfessionTeaDev.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* ConfessionTea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConfessionTea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ConfessionTea/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ConfessionTea/Info.plist; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = ConfessionTea/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1E27CFDC98CE4E41A04EB69B /* OpenSans-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-MediumItalic.ttf"; path = "../assets/fonts/OpenSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		1EAA9B14C1F340FEBAAADB1B /* OpenSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Medium.ttf"; path = "../assets/fonts/OpenSans-Medium.ttf"; sourceTree = "<group>"; };
+		2827715B525445EB94F40B7A /* OpenSans_Condensed-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans_Condensed-SemiBoldItalic.ttf"; path = "../assets/fonts/OpenSans_Condensed-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		2D3A9EDA5FF21C68D881937C /* Pods-ConfessionTeaBase-ConfessionTea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfessionTeaBase-ConfessionTea.release.xcconfig"; path = "Target Support Files/Pods-ConfessionTeaBase-ConfessionTea/Pods-ConfessionTeaBase-ConfessionTea.release.xcconfig"; sourceTree = "<group>"; };
+		358F15A25099D43F99D66EC7 /* Pods-ConfessionTeaBase-ConfessionTea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfessionTeaBase-ConfessionTea.debug.xcconfig"; path = "Target Support Files/Pods-ConfessionTeaBase-ConfessionTea/Pods-ConfessionTeaBase-ConfessionTea.debug.xcconfig"; sourceTree = "<group>"; };
+		3C80BCFBA1D2D7D5B23723BE /* libPods-ConfessionTeaBase-ConfessionTeaDev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConfessionTeaBase-ConfessionTeaDev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		452EE7B29CB8422AA071F2E3 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-LightItalic.ttf"; path = "../assets/fonts/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		4DB3B97520FD43419E5F36EF /* OpenSans_SemiCondensed-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans_SemiCondensed-SemiBold.ttf"; path = "../assets/fonts/OpenSans_SemiCondensed-SemiBold.ttf"; sourceTree = "<group>"; };
+		51DD3EA6A21B448ABA99FC14 /* BootSplash.storyboard */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = BootSplash.storyboard; path = ConfessionTea/BootSplash.storyboard; sourceTree = "<group>"; };
+		5985F7B2EEFD49DE8E4B7357 /* OpenSans_Condensed-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans_Condensed-BoldItalic.ttf"; path = "../assets/fonts/OpenSans_Condensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		59A237200FC7431C88D540F1 /* OpenSans_SemiCondensed-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans_SemiCondensed-Light.ttf"; path = "../assets/fonts/OpenSans_SemiCondensed-Light.ttf"; sourceTree = "<group>"; };
+		63467A54DCB94267912C24AE /* OpenSans_SemiCondensed-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans_SemiCondensed-Regular.ttf"; path = "../assets/fonts/OpenSans_SemiCondensed-Regular.ttf"; sourceTree = "<group>"; };
+		64E504F1E4B74ABA8508DF30 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBoldItalic.ttf"; path = "../assets/fonts/OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		6616ABC9E1F44AE288D02B92 /* OpenSans_Condensed-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans_Condensed-SemiBold.ttf"; path = "../assets/fonts/OpenSans_Condensed-SemiBold.ttf"; sourceTree = "<group>"; };
+		7194E7A51E14928D9EC14D95 /* libPods-ConfessionTeaBase-ConfessionTea.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ConfessionTeaBase-ConfessionTea.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		744F578BBC3C44809F5EA241 /* OpenSans_Condensed-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans_Condensed-ExtraBoldItalic.ttf"; path = "../assets/fonts/OpenSans_Condensed-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		7573080D2A1D4BD487A96BB0 /* OpenSans_SemiCondensed-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans_SemiCondensed-LightItalic.ttf"; path = "../assets/fonts/OpenSans_SemiCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ConfessionTea/AppDelegate.swift; sourceTree = "<group>"; };
+		795293DBAB7E4B23999C55F9 /* OpenSans_SemiCondensed-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans_SemiCondensed-ExtraBold.ttf"; path = "../assets/fonts/OpenSans_SemiCondensed-ExtraBold.ttf"; sourceTree = "<group>"; };
+		7A00A14B52564E768158DF21 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Italic.ttf"; path = "../assets/fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		7B2D167CA3354017BA915394 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-BoldItalic.ttf"; path = "../assets/fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		7E2D4C5F790F435EBF93E909 /* OpenSans_SemiCondensed-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans_SemiCondensed-Italic.ttf"; path = "../assets/fonts/OpenSans_SemiCondensed-Italic.ttf"; sourceTree = "<group>"; };
+		8EF0E01A18EF45CB924DD360 /* OpenSans_Condensed-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans_Condensed-ExtraBold.ttf"; path = "../assets/fonts/OpenSans_Condensed-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8FF964389FD0F702CB3A5C40 /* Pods-ConfessionTea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfessionTea.release.xcconfig"; path = "Target Support Files/Pods-ConfessionTea/Pods-ConfessionTea.release.xcconfig"; sourceTree = "<group>"; };
+		AC93C01098B14F6B95A35F9C /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBold.ttf"; path = "../assets/fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		AFE5372AB14047BF8E15AAE6 /* OpenSans_SemiCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans_SemiCondensed-BoldItalic.ttf"; path = "../assets/fonts/OpenSans_SemiCondensed-BoldItalic.ttf"; sourceTree = "<group>"; };
+		B24CF27B28A3410798390238 /* OpenSans_Condensed-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans_Condensed-Regular.ttf"; path = "../assets/fonts/OpenSans_Condensed-Regular.ttf"; sourceTree = "<group>"; };
+		BAB59A1541814430947A13FC /* OpenSans_SemiCondensed-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans_SemiCondensed-ExtraBoldItalic.ttf"; path = "../assets/fonts/OpenSans_SemiCondensed-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		BF50E2C322C74A618ABF9966 /* OpenSans_SemiCondensed-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans_SemiCondensed-MediumItalic.ttf"; path = "../assets/fonts/OpenSans_SemiCondensed-MediumItalic.ttf"; sourceTree = "<group>"; };
+		C23B60B8D8DC448181EEB93C /* OpenSans_Condensed-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans_Condensed-Italic.ttf"; path = "../assets/fonts/OpenSans_Condensed-Italic.ttf"; sourceTree = "<group>"; };
+		CA1E1F87030F40C2A3827794 /* OpenSans_Condensed-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans_Condensed-Light.ttf"; path = "../assets/fonts/OpenSans_Condensed-Light.ttf"; sourceTree = "<group>"; };
+		CCE040BDCB054062BAF0BBDB /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBold.ttf"; path = "../assets/fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		D3227E45B524466182A5F49C /* Colors.xcassets */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = ConfessionTea/Colors.xcassets; sourceTree = "<group>"; };
+		D62266DBC5F1424EBA83915D /* OpenSans_Condensed-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans_Condensed-LightItalic.ttf"; path = "../assets/fonts/OpenSans_Condensed-LightItalic.ttf"; sourceTree = "<group>"; };
+		E5DF3544173D48CEBB31E206 /* OpenSans_SemiCondensed-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans_SemiCondensed-SemiBoldItalic.ttf"; path = "../assets/fonts/OpenSans_SemiCondensed-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EE2DAD6629E34F64897F17D7 /* OpenSans_SemiCondensed-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans_SemiCondensed-Bold.ttf"; path = "../assets/fonts/OpenSans_SemiCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		F1B29B44EB0044D4A8DEDF2B /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBoldItalic.ttf"; path = "../assets/fonts/OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		F2BE1A04DC9E0A1BF2E4A3A8 /* Pods-ConfessionTea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConfessionTea.debug.xcconfig"; path = "Target Support Files/Pods-ConfessionTea/Pods-ConfessionTea.debug.xcconfig"; sourceTree = "<group>"; };
+		FA7002B791084C76A22CAA47 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Bold.ttf"; path = "../assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		FA745DEB2E39F9BF00CA71FA /* ConfessionTeaDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConfessionTeaDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA745DEC2E39F9BF00CA71FA /* ConfessionTeaDev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ConfessionTeaDev-Info.plist"; path = "/Users/macbook/Documents/work2024/react-native-appx/ConfessionTea/ios/ConfessionTeaDev-Info.plist"; sourceTree = "<absolute>"; };
+		FA745DEF2E39FAE000CA71FA /* ConfessionTea-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ConfessionTea-Info.plist"; path = "/Users/macbook/Documents/work2024/react-native-appx/ConfessionTea/ios/ConfessionTea-Info.plist"; sourceTree = "<absolute>"; };
+		FB9FAEB910274A6E9C209DBB /* OpenSans_Condensed-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans_Condensed-Medium.ttf"; path = "../assets/fonts/OpenSans_Condensed-Medium.ttf"; sourceTree = "<group>"; };
+		FD4283191C524C14B03F9B85 /* OpenSans_SemiCondensed-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans_SemiCondensed-Medium.ttf"; path = "../assets/fonts/OpenSans_SemiCondensed-Medium.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1B6333B5BC2C21E741F6E7B /* libPods-ConfessionTeaBase-ConfessionTea.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA745DDF2E39F9BF00CA71FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2F79F1B861DAFED0EF29CA /* libPods-ConfessionTeaBase-ConfessionTeaDev.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B07FAE1A68108700A75B9A /* ConfessionTea */ = {
+			isa = PBXGroup;
+			children = (
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				761780EC2CA45674006654EE /* AppDelegate.swift */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				51DD3EA6A21B448ABA99FC14 /* BootSplash.storyboard */,
+				D3227E45B524466182A5F49C /* Colors.xcassets */,
+			);
+			name = ConfessionTea;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				7194E7A51E14928D9EC14D95 /* libPods-ConfessionTeaBase-ConfessionTea.a */,
+				3C80BCFBA1D2D7D5B23723BE /* libPods-ConfessionTeaBase-ConfessionTeaDev.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* ConfessionTea */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				FA745DEC2E39F9BF00CA71FA /* ConfessionTeaDev-Info.plist */,
+				FA745DEF2E39FAE000CA71FA /* ConfessionTea-Info.plist */,
+				98B2D0A6B3124291ABAD5C45 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* ConfessionTea.app */,
+				FA745DEB2E39F9BF00CA71FA /* ConfessionTeaDev.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98B2D0A6B3124291ABAD5C45 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA7002B791084C76A22CAA47 /* OpenSans-Bold.ttf */,
+				7B2D167CA3354017BA915394 /* OpenSans-BoldItalic.ttf */,
+				AC93C01098B14F6B95A35F9C /* OpenSans-ExtraBold.ttf */,
+				64E504F1E4B74ABA8508DF30 /* OpenSans-ExtraBoldItalic.ttf */,
+				7A00A14B52564E768158DF21 /* OpenSans-Italic.ttf */,
+				03C5DC6563DE43BA85A927F1 /* OpenSans-Light.ttf */,
+				452EE7B29CB8422AA071F2E3 /* OpenSans-LightItalic.ttf */,
+				1EAA9B14C1F340FEBAAADB1B /* OpenSans-Medium.ttf */,
+				1E27CFDC98CE4E41A04EB69B /* OpenSans-MediumItalic.ttf */,
+				0BCC5784E6A3473D9E20558E /* OpenSans-Regular.ttf */,
+				CCE040BDCB054062BAF0BBDB /* OpenSans-SemiBold.ttf */,
+				F1B29B44EB0044D4A8DEDF2B /* OpenSans-SemiBoldItalic.ttf */,
+				0E89DB3C2DBB4B059A691C28 /* OpenSans_Condensed-Bold.ttf */,
+				5985F7B2EEFD49DE8E4B7357 /* OpenSans_Condensed-BoldItalic.ttf */,
+				8EF0E01A18EF45CB924DD360 /* OpenSans_Condensed-ExtraBold.ttf */,
+				744F578BBC3C44809F5EA241 /* OpenSans_Condensed-ExtraBoldItalic.ttf */,
+				C23B60B8D8DC448181EEB93C /* OpenSans_Condensed-Italic.ttf */,
+				CA1E1F87030F40C2A3827794 /* OpenSans_Condensed-Light.ttf */,
+				D62266DBC5F1424EBA83915D /* OpenSans_Condensed-LightItalic.ttf */,
+				FB9FAEB910274A6E9C209DBB /* OpenSans_Condensed-Medium.ttf */,
+				00AAD03E58FC4CE39A17195D /* OpenSans_Condensed-MediumItalic.ttf */,
+				B24CF27B28A3410798390238 /* OpenSans_Condensed-Regular.ttf */,
+				6616ABC9E1F44AE288D02B92 /* OpenSans_Condensed-SemiBold.ttf */,
+				2827715B525445EB94F40B7A /* OpenSans_Condensed-SemiBoldItalic.ttf */,
+				EE2DAD6629E34F64897F17D7 /* OpenSans_SemiCondensed-Bold.ttf */,
+				AFE5372AB14047BF8E15AAE6 /* OpenSans_SemiCondensed-BoldItalic.ttf */,
+				795293DBAB7E4B23999C55F9 /* OpenSans_SemiCondensed-ExtraBold.ttf */,
+				BAB59A1541814430947A13FC /* OpenSans_SemiCondensed-ExtraBoldItalic.ttf */,
+				7E2D4C5F790F435EBF93E909 /* OpenSans_SemiCondensed-Italic.ttf */,
+				59A237200FC7431C88D540F1 /* OpenSans_SemiCondensed-Light.ttf */,
+				7573080D2A1D4BD487A96BB0 /* OpenSans_SemiCondensed-LightItalic.ttf */,
+				FD4283191C524C14B03F9B85 /* OpenSans_SemiCondensed-Medium.ttf */,
+				BF50E2C322C74A618ABF9966 /* OpenSans_SemiCondensed-MediumItalic.ttf */,
+				63467A54DCB94267912C24AE /* OpenSans_SemiCondensed-Regular.ttf */,
+				4DB3B97520FD43419E5F36EF /* OpenSans_SemiCondensed-SemiBold.ttf */,
+				E5DF3544173D48CEBB31E206 /* OpenSans_SemiCondensed-SemiBoldItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2BE1A04DC9E0A1BF2E4A3A8 /* Pods-ConfessionTea.debug.xcconfig */,
+				8FF964389FD0F702CB3A5C40 /* Pods-ConfessionTea.release.xcconfig */,
+				358F15A25099D43F99D66EC7 /* Pods-ConfessionTeaBase-ConfessionTea.debug.xcconfig */,
+				2D3A9EDA5FF21C68D881937C /* Pods-ConfessionTeaBase-ConfessionTea.release.xcconfig */,
+				018E16E34EDDCEA82CC6BFD1 /* Pods-ConfessionTeaBase-ConfessionTeaDev.debug.xcconfig */,
+				10BA13AEABEBAADE45C169BB /* Pods-ConfessionTeaBase-ConfessionTeaDev.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* ConfessionTea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ConfessionTea" */;
+			buildPhases = (
+				EB6244F6B4C2E116BA4B41BE /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				32C87A3ED3D25ED376CEBE60 /* [CP] Embed Pods Frameworks */,
+				2F9530B135399516165E7ACF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConfessionTea;
+			productName = ConfessionTea;
+			productReference = 13B07F961A680F5B00A75B9A /* ConfessionTea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA745DDB2E39F9BF00CA71FA /* ConfessionTeaDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA745DE82E39F9BF00CA71FA /* Build configuration list for PBXNativeTarget "ConfessionTeaDev" */;
+			buildPhases = (
+				FA745DDC2E39F9BF00CA71FA /* [CP] Check Pods Manifest.lock */,
+				FA745DDD2E39F9BF00CA71FA /* Sources */,
+				FA745DDF2E39F9BF00CA71FA /* Frameworks */,
+				FA745DE12E39F9BF00CA71FA /* Resources */,
+				FA745DE52E39F9BF00CA71FA /* Bundle React Native code and images */,
+				FA745DE62E39F9BF00CA71FA /* [CP] Embed Pods Frameworks */,
+				FA745DE72E39F9BF00CA71FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConfessionTeaDev;
+			productName = ConfessionTea;
+			productReference = FA745DEB2E39F9BF00CA71FA /* ConfessionTeaDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ConfessionTea" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* ConfessionTea */,
+				FA745DDB2E39F9BF00CA71FA /* ConfessionTeaDev */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				2D6A686DE101C0C8E6E19F22 /* PrivacyInfo.xcprivacy in Resources */,
+				CA938FAF82994B46891F31AA /* BootSplash.storyboard in Resources */,
+				DFE6383C6E7E44968239BE59 /* Colors.xcassets in Resources */,
+				23BA3782D22F4DB888DB746B /* OpenSans-Bold.ttf in Resources */,
+				889175B00EA64270A97118BC /* OpenSans-BoldItalic.ttf in Resources */,
+				F3D20C0C0BEE447FBAA03E0B /* OpenSans-ExtraBold.ttf in Resources */,
+				905A04003279462BA0821F28 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				329F235D07834714967DF877 /* OpenSans-Italic.ttf in Resources */,
+				A42C92A3B01843F2B9B9342F /* OpenSans-Light.ttf in Resources */,
+				7B3E09B809B24C7EBBA0ADAC /* OpenSans-LightItalic.ttf in Resources */,
+				7088A1628C3E444F9D9E3FEC /* OpenSans-Medium.ttf in Resources */,
+				483C3097F2904BD9931267FC /* OpenSans-MediumItalic.ttf in Resources */,
+				05A9D31AD2874C728EDDDD9F /* OpenSans-Regular.ttf in Resources */,
+				464D9EAFBC4E46A0B7646052 /* OpenSans-SemiBold.ttf in Resources */,
+				1224482EBC934D8CBF74E320 /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				141BC2ACFEE64B3BB344427C /* OpenSans_Condensed-Bold.ttf in Resources */,
+				4760F53BBD9F4F11B35E35B2 /* OpenSans_Condensed-BoldItalic.ttf in Resources */,
+				8FBF367B45174A19B1AE86A1 /* OpenSans_Condensed-ExtraBold.ttf in Resources */,
+				B6B50328EAFA4EC58F27803B /* OpenSans_Condensed-ExtraBoldItalic.ttf in Resources */,
+				5A2BFCD32A7F4A1F9F26168A /* OpenSans_Condensed-Italic.ttf in Resources */,
+				DA3C58BDFB374B7BABDD0E16 /* OpenSans_Condensed-Light.ttf in Resources */,
+				41BEA9CFBC494A1381588526 /* OpenSans_Condensed-LightItalic.ttf in Resources */,
+				3D7FA893C0884058A56A4AA0 /* OpenSans_Condensed-Medium.ttf in Resources */,
+				B001F8DA9E714C1882D38A9F /* OpenSans_Condensed-MediumItalic.ttf in Resources */,
+				52F6D5C27EBB4F50B08BD354 /* OpenSans_Condensed-Regular.ttf in Resources */,
+				E6C1AB50507F4E328B90DAB6 /* OpenSans_Condensed-SemiBold.ttf in Resources */,
+				3A7724D36BF0437C9279E18C /* OpenSans_Condensed-SemiBoldItalic.ttf in Resources */,
+				24879691531F4CAD91910074 /* OpenSans_SemiCondensed-Bold.ttf in Resources */,
+				AAE282EE577843D48184BE82 /* OpenSans_SemiCondensed-BoldItalic.ttf in Resources */,
+				CBF8DE4DA67D4E248ED5EE94 /* OpenSans_SemiCondensed-ExtraBold.ttf in Resources */,
+				3CFD2DE936524B728F7F2ED1 /* OpenSans_SemiCondensed-ExtraBoldItalic.ttf in Resources */,
+				F502935F6B054F7995EA4817 /* OpenSans_SemiCondensed-Italic.ttf in Resources */,
+				3DDBFD5B2A49458F8C52D77C /* OpenSans_SemiCondensed-Light.ttf in Resources */,
+				D205030314C94B90A8C1669F /* OpenSans_SemiCondensed-LightItalic.ttf in Resources */,
+				55A260A945BE43559CFAD2EC /* OpenSans_SemiCondensed-Medium.ttf in Resources */,
+				AE06135D5F334B6295654C6B /* OpenSans_SemiCondensed-MediumItalic.ttf in Resources */,
+				39C6B2360C5047038BA591C5 /* OpenSans_SemiCondensed-Regular.ttf in Resources */,
+				338CD0DF5C7A46D7BB10B037 /* OpenSans_SemiCondensed-SemiBold.ttf in Resources */,
+				701DC90C5F574AB9A3C4122E /* OpenSans_SemiCondensed-SemiBoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA745DE12E39F9BF00CA71FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEC573D2E3CB062003DEE32 /* OpenSans-Bold.ttf in Resources */,
+				FAEC573E2E3CB062003DEE32 /* OpenSans-BoldItalic.ttf in Resources */,
+				FAEC573F2E3CB062003DEE32 /* OpenSans-ExtraBold.ttf in Resources */,
+				FAEC57402E3CB062003DEE32 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				FAEC57412E3CB062003DEE32 /* OpenSans-Italic.ttf in Resources */,
+				FAEC57422E3CB062003DEE32 /* OpenSans-Light.ttf in Resources */,
+				FAEC57432E3CB062003DEE32 /* OpenSans-LightItalic.ttf in Resources */,
+				FAEC57442E3CB062003DEE32 /* OpenSans-Medium.ttf in Resources */,
+				FAEC57452E3CB062003DEE32 /* OpenSans-MediumItalic.ttf in Resources */,
+				FAEC57462E3CB062003DEE32 /* OpenSans-Regular.ttf in Resources */,
+				FAEC57472E3CB062003DEE32 /* OpenSans-SemiBold.ttf in Resources */,
+				FAEC57482E3CB062003DEE32 /* OpenSans-SemiBoldItalic.ttf in Resources */,
+				FAEC57492E3CB062003DEE32 /* OpenSans_Condensed-Bold.ttf in Resources */,
+				FAEC574A2E3CB062003DEE32 /* OpenSans_Condensed-BoldItalic.ttf in Resources */,
+				FAEC574B2E3CB062003DEE32 /* OpenSans_Condensed-ExtraBold.ttf in Resources */,
+				FAEC574C2E3CB062003DEE32 /* OpenSans_Condensed-ExtraBoldItalic.ttf in Resources */,
+				FAEC574D2E3CB062003DEE32 /* OpenSans_Condensed-Italic.ttf in Resources */,
+				FAEC574E2E3CB062003DEE32 /* OpenSans_Condensed-Light.ttf in Resources */,
+				FAEC574F2E3CB062003DEE32 /* OpenSans_Condensed-LightItalic.ttf in Resources */,
+				FAEC57502E3CB062003DEE32 /* OpenSans_Condensed-Medium.ttf in Resources */,
+				FAEC57512E3CB062003DEE32 /* OpenSans_Condensed-MediumItalic.ttf in Resources */,
+				FAEC57522E3CB062003DEE32 /* OpenSans_Condensed-Regular.ttf in Resources */,
+				FAEC57532E3CB062003DEE32 /* OpenSans_Condensed-SemiBold.ttf in Resources */,
+				FAEC57542E3CB062003DEE32 /* OpenSans_Condensed-SemiBoldItalic.ttf in Resources */,
+				FAEC57552E3CB062003DEE32 /* OpenSans_SemiCondensed-Bold.ttf in Resources */,
+				FAEC57562E3CB062003DEE32 /* OpenSans_SemiCondensed-BoldItalic.ttf in Resources */,
+				FAEC57572E3CB062003DEE32 /* OpenSans_SemiCondensed-ExtraBold.ttf in Resources */,
+				FAEC57582E3CB062003DEE32 /* OpenSans_SemiCondensed-ExtraBoldItalic.ttf in Resources */,
+				FAEC57592E3CB062003DEE32 /* OpenSans_SemiCondensed-Italic.ttf in Resources */,
+				FAEC575A2E3CB062003DEE32 /* OpenSans_SemiCondensed-Light.ttf in Resources */,
+				FAEC575B2E3CB062003DEE32 /* OpenSans_SemiCondensed-LightItalic.ttf in Resources */,
+				FAEC575C2E3CB062003DEE32 /* OpenSans_SemiCondensed-Medium.ttf in Resources */,
+				FAEC575D2E3CB062003DEE32 /* OpenSans_SemiCondensed-MediumItalic.ttf in Resources */,
+				FAEC575E2E3CB062003DEE32 /* OpenSans_SemiCondensed-Regular.ttf in Resources */,
+				FAEC575F2E3CB062003DEE32 /* OpenSans_SemiCondensed-SemiBold.ttf in Resources */,
+				FAEC57602E3CB062003DEE32 /* OpenSans_SemiCondensed-SemiBoldItalic.ttf in Resources */,
+				FAEC573C2E3CADA9003DEE32 /* BootSplash.storyboard in Resources */,
+				FA745DE32E39F9BF00CA71FA /* Images.xcassets in Resources */,
+				FA745DE42E39F9BF00CA71FA /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		2F9530B135399516165E7ACF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConfessionTeaBase-ConfessionTea/Pods-ConfessionTeaBase-ConfessionTea-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConfessionTeaBase-ConfessionTea/Pods-ConfessionTeaBase-ConfessionTea-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConfessionTeaBase-ConfessionTea/Pods-ConfessionTeaBase-ConfessionTea-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32C87A3ED3D25ED376CEBE60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConfessionTeaBase-ConfessionTea/Pods-ConfessionTeaBase-ConfessionTea-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConfessionTeaBase-ConfessionTea/Pods-ConfessionTeaBase-ConfessionTea-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConfessionTeaBase-ConfessionTea/Pods-ConfessionTeaBase-ConfessionTea-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB6244F6B4C2E116BA4B41BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConfessionTeaBase-ConfessionTea-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA745DDC2E39F9BF00CA71FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ConfessionTeaBase-ConfessionTeaDev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA745DE52E39F9BF00CA71FA /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		FA745DE62E39F9BF00CA71FA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConfessionTeaBase-ConfessionTeaDev/Pods-ConfessionTeaBase-ConfessionTeaDev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConfessionTeaBase-ConfessionTeaDev/Pods-ConfessionTeaBase-ConfessionTeaDev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConfessionTeaBase-ConfessionTeaDev/Pods-ConfessionTeaBase-ConfessionTeaDev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA745DE72E39F9BF00CA71FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConfessionTeaBase-ConfessionTeaDev/Pods-ConfessionTeaBase-ConfessionTeaDev-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ConfessionTeaBase-ConfessionTeaDev/Pods-ConfessionTeaBase-ConfessionTeaDev-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ConfessionTeaBase-ConfessionTeaDev/Pods-ConfessionTeaBase-ConfessionTeaDev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761780ED2CA45674006654EE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA745DDD2E39F9BF00CA71FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA745DDE2E39F9BF00CA71FA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 358F15A25099D43F99D66EC7 /* Pods-ConfessionTeaBase-ConfessionTea.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XVCWBGAFD7;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "ConfessionTea-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ConfessLy;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.confessiontea.prod;
+				PRODUCT_NAME = ConfessionTea;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D3A9EDA5FF21C68D881937C /* Pods-ConfessionTeaBase-ConfessionTea.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XVCWBGAFD7;
+				INFOPLIST_FILE = "ConfessionTea-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ConfessLy;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.confessiontea.prod;
+				PRODUCT_NAME = ConfessionTea;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA745DE92E39F9BF00CA71FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 018E16E34EDDCEA82CC6BFD1 /* Pods-ConfessionTeaBase-ConfessionTeaDev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Dev";
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "ConfessionTeaDev-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ConfessLyDev;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.confessiontea.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		FA745DEA2E39F9BF00CA71FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10BA13AEABEBAADE45C169BB /* Pods-ConfessionTeaBase-ConfessionTeaDev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Dev";
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "ConfessionTeaDev-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ConfessLyDev;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.confessiontea.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ConfessionTea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ConfessionTea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA745DE82E39F9BF00CA71FA /* Build configuration list for PBXNativeTarget "ConfessionTeaDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA745DE92E39F9BF00CA71FA /* Debug */,
+				FA745DEA2E39F9BF00CA71FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

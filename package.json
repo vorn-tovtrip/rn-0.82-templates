@@ -1,0 +1,62 @@
+{
+  "name": "ConfessionTea",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "npx react-native run-android",
+    "android:build-prod": "cd android && ./gradlew clean && ./gradlew assembleProductionRelease",
+    "android:build-dev": "cd android && ./gradlew clean && ./gradlew assembleDevelopmentDebug",
+    "android-start:dev": "npx react-native run-android --mode=developmentRelease  --appId=com.confessiontea.development",
+    "android-start:prod": "npx react-native run-android --mode=productionRelease  --appId=com.confessiontea.production",
+    "android:prod": "npx react-native run-android --mode=productionDebug  --appId=com.confessiontea.production",
+    "android:dev": "npx react-native run-android --mode=developmentDebug --appId=com.confessiontea.dev",
+    "ios": "npx react-native run-ios",
+    "generate-bootsplash-android": "npx react-native-bootsplash generate src/assets/dev/icon-512.png --platforms=android --background=FFFFFF --logo-width=100 --assets-output=assets/bootsplash/development --flavor=development && npx react-native-bootsplash generate src/assets/dev/icon-512.png --platforms=android --background=FFFFFF --logo-width=100 --assets-output=assets/bootsplash/production --flavor=main",
+    "generate-bootsplash-ios:dev": "npx react-native-bootsplash generate src/assets/dev/icon-512.png --platforms=ios --background=FFFFFF --logo-width=100 --assets-output=assets/bootsplash/ConfessionTeaDev --flavor=ConfessionTeaDev",
+    "generate-bootsplash-ios:prod":"npx react-native-bootsplash generate src/assets/prod/icon-512.png --platforms=ios --background=FFFFFF --logo-width=100 --assets-output=assets/bootsplash/ConfessionTea --flavor=ConfessionTea",
+    "ios:dev": "npx react-native run-ios --scheme ConfessionTeaDev",
+    "ios:prod": "npx react-native run-ios --scheme ConfessionTea",
+    "lint": "eslint .",
+    "start": "react-native start --reset-cache",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@legendapp/list": "^1.1.4",
+    "@react-native/new-app-screen": "0.80.2",
+    "@react-navigation/native": "^7.1.16",
+    "@react-navigation/native-stack": "^7.3.23",
+    "react": "19.1.0",
+    "react-native": "0.80.2",
+    "react-native-bootsplash": "^6.3.10",
+    "react-native-config": "^1.5.5",
+    "react-native-paper": "^5.14.5",
+    "react-native-safe-area-context": "^5.5.2",
+    "react-native-screens": "^4.13.1",
+    "react-native-vector-icons": "^10.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/runtime": "^7.25.0",
+    "@react-native-community/cli": "^19.1.1",
+    "@react-native-community/cli-platform-android": "19.1.1",
+    "@react-native-community/cli-platform-ios": "19.1.1",
+    "@react-native/babel-preset": "^0.80.2",
+    "@react-native/eslint-config": "0.80.2",
+    "@react-native/metro-config": "0.80.2",
+    "@react-native/typescript-config": "^0.80.2",
+    "@types/jest": "^29.5.13",
+    "@types/react": "^19.1.0",
+    "@types/react-test-renderer": "^19.1.0",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "eslint": "^8.19.0",
+    "jest": "^29.6.3",
+    "prettier": "2.8.8",
+    "react-test-renderer": "19.1.0",
+    "typescript": "5.0.4"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "yarn@1.22.22"
+}

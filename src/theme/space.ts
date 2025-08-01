@@ -1,0 +1,81 @@
+import { Dimensions } from 'react-native';
+
+const { width: SCREEN_WIDTH } = Dimensions.get('window');
+
+const BASE_UNIT = SCREEN_WIDTH / 100;
+
+const spacingValue = (multiplier: number) => Math.round(BASE_UNIT * multiplier);
+
+export const guideline = {
+  p0: { padding: 0 },
+  p1: { padding: spacingValue(1) },
+  p2: { padding: spacingValue(2) },
+  p3: { padding: spacingValue(3) },
+  p4: { padding: spacingValue(4) },
+  p5: { padding: spacingValue(5) },
+  p6: { padding: spacingValue(6) },
+  p7: { padding: spacingValue(7) },
+  p8: { padding: spacingValue(8) },
+  p9: { padding: spacingValue(9) },
+  p10: { padding: spacingValue(10) },
+
+  px0: { paddingHorizontal: 0 },
+  px1: { paddingHorizontal: spacingValue(1) },
+  px2: { paddingHorizontal: spacingValue(2) },
+  px3: { paddingHorizontal: spacingValue(3) },
+  px4: { paddingHorizontal: spacingValue(4) },
+  px5: { paddingHorizontal: spacingValue(5) },
+  px6: { paddingHorizontal: spacingValue(6) },
+  px7: { paddingHorizontal: spacingValue(7) },
+  px8: { paddingHorizontal: spacingValue(8) },
+  px9: { paddingHorizontal: spacingValue(9) },
+  px10: { paddingHorizontal: spacingValue(10) },
+
+  py0: { paddingVertical: 0 },
+  py1: { paddingVertical: spacingValue(1) },
+  py2: { paddingVertical: spacingValue(2) },
+  py3: { paddingVertical: spacingValue(3) },
+  py4: { paddingVertical: spacingValue(4) },
+  py5: { paddingVertical: spacingValue(5) },
+  py6: { paddingVertical: spacingValue(6) },
+  py7: { paddingVertical: spacingValue(7) },
+  py8: { paddingVertical: spacingValue(8) },
+  py9: { paddingVertical: spacingValue(9) },
+  py10: { paddingVertical: spacingValue(10) },
+
+  m0: { margin: 0 },
+  m1: { margin: spacingValue(1) },
+  m2: { margin: spacingValue(2) },
+  m3: { margin: spacingValue(3) },
+  m4: { margin: spacingValue(4) },
+  m5: { margin: spacingValue(5) },
+  m6: { margin: spacingValue(6) },
+  m7: { margin: spacingValue(7) },
+  m8: { margin: spacingValue(8) },
+  m9: { margin: spacingValue(9) },
+  m10: { margin: spacingValue(10) },
+
+  mx0: { marginHorizontal: 0 },
+  mx1: { marginHorizontal: spacingValue(1) },
+  mx2: { marginHorizontal: spacingValue(2) },
+  mx3: { marginHorizontal: spacingValue(3) },
+  mx4: { marginHorizontal: spacingValue(4) },
+  mx5: { marginHorizontal: spacingValue(5) },
+  mx6: { marginHorizontal: spacingValue(6) },
+  mx7: { marginHorizontal: spacingValue(7) },
+  mx8: { marginHorizontal: spacingValue(8) },
+  mx9: { marginHorizontal: spacingValue(9) },
+  mx10: { marginHorizontal: spacingValue(10) },
+
+  my0: { marginVertical: 0 },
+  my1: { marginVertical: spacingValue(1) },
+  my2: { marginVertical: spacingValue(2) },
+  my3: { marginVertical: spacingValue(3) },
+  my4: { marginVertical: spacingValue(4) },
+  my5: { marginVertical: spacingValue(5) },
+  my6: { marginVertical: spacingValue(6) },
+  my7: { marginVertical: spacingValue(7) },
+  my8: { marginVertical: spacingValue(8) },
+  my9: { marginVertical: spacingValue(9) },
+  my10: { marginVertical: spacingValue(10) },
+};
